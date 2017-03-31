@@ -8,13 +8,14 @@ namespace CSharp_Delegate_Action_Func
 {
     class Program
     {
+        //create a delegate called DelegateHelloWorld
         delegate void DelegateHelloWorld(string name);
 
         static void Main(string[] args)
         {            
             /* *******************************************************
              * 
-             * Declare a delegate to encapsulate a method
+             * Declare a delegate of DelegateHelloWorld to encapsulate a method
              * 
              * *******************************************************/
             //conventional way to delegate a functoin to a reference
